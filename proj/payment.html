@@ -1,0 +1,88 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>pay</title>
+<link rel="stylesheet" type="text/css" href="payment.css"/>
+</head>
+
+<body>
+
+  <div id="left">
+    <ul class="nav navbar-nav navbarfa-pull-right">
+        <h1><span style="color: orange;">W</span>ELCOME <span style="color: orange;">T</span>O <span style="color: orange;">M</span>ANDARIN <span style="color: orange;">O</span>RIENTAL <span style="color: orange;">H</span>OTEL <span style="color: orange;">G</span>ROUP</h1> Customers satisfaction is a philosophy!!!
+            <a href="#home" class="w3-button w3-bar-item">HOME </a>
+            
+            <a href="booking.html" >BOOKING</a>
+            <a href="contact.html" class="w3-button w3-bar-item">CONTACT</a>
+
+         
+        </ul>
+    </div>
+
+	 
+<div id="payment">
+	<h1>Make Bill</h1>
+	<div id="a2">
+    
+    
+    <form action="payment.php" method="post">
+    <label>Card Type:</label>;
+      <select name="type">
+      <option value="debit">Debit Card</option>
+       <option value="credit">Credit Card</option>
+       </select>
+     <br><br>
+     <label>Expiry Date:</label>;
+     		<select name="month">
+    		<option>Jan</option>
+        <option>Feb</option>
+				<option>Mar</option>
+				<option>May</option>
+				<option>Jun</option>
+				<option>July</option>
+				<option>Aug</option>
+				<option>Sep</option>
+				<option>Oct</option>
+				<option>Nov</option>	
+				<option>Dec</option>
+    		</select>
+		<select name="year">
+    			<option>2015</option><option>2016</option>
+                <option>2017</option><option>2018</option>
+                <option>2019</option><option>2020</option>
+                <option>2021</option><option>2022</option>
+                <option>2023</option><option>2024</option>
+                <option>2025</option><option>2026</option>
+                <option>2027</option><option>2028</option>
+                <option>2030</option><option>2031</option>
+                <option>2032</option><option>2033</option>
+                <option>2034</option><option>2035</option>
+                <option>2036</option><option>2037</option>
+                <option>2038</option><option>2039</option>
+                <option>2040</option><option>2041</option>
+                <option>2042</option><option>2043</option>
+                <option>2044</option><option>2045</option>
+                <option>2046</option><option>2047</option>
+                <option>2048</option><option>2049</option><option>2050</option>
+    		</select>
+        <br><br>
+	<label >Card_No:</label>;
+		<input  name="card_no" placeholder="Number" required="" type="text"><br><br>
+    
+	<label >Card Name:</label>;
+		<input  name=" card_name" placeholder="Name" required="" type="text"><br><br>
+    
+	<label >Card ccv</label>;
+        <input  name=" card_ccv" placeholder="Name" required="" type="text"><br><br>
+    
+	<label for="password">Pin</label>
+		<input name="password" placeholder="Number" required="" type="password"><br><br><br>
+
+		<input type="submit" class="btn" value="SUBMIT">
+		<input type="submit" class="btn" value="RESET">
+   </form>
+    </div><!--a2-->
+</div><!--payment-->
+</div><!--holder-->
+</body>
+</html>

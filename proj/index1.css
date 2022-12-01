@@ -1,0 +1,240 @@
+
+
+#navbar {
+ 
+  position: fixed; 
+  top: 0px; 
+  width: 100%; 
+
+}
+#section{
+  display:flex;
+    margin-right:0px;
+    font-style: oblique;
+    border:1px solid;
+  
+    background-color: black;
+    margin-bottom: 0%;
+}
+#left{
+
+  margin-right: 20px;
+  margin-bottom: 0%;
+  color: white;
+  
+  
+}
+#img{
+  margin-bottom: 0px;
+  margin: top 0;
+  display: flex;
+}
+
+  .bottom-left {
+    position: absolute;
+    bottom: 80px;
+    left: 150px;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+          
+        
+        
+          #form{
+            background-color: lavender;
+          }
+          .bgimg{
+            color: rgb(104, 5, 5);
+            font-size: medium;
+            text-align: center;
+          }
+          .btn{
+            color: white;
+            padding: 10px;
+            background-color: rgb(5, 44, 89);
+          }
+          .btn1{
+            color: white;
+            padding: 10px;
+            background-color: rgb(5, 44, 89);
+          }
+          
+
+    #abhay{
+ 
+  text-align: right;
+  color: rgb(251, 23, 23);
+  align-items: flex-end;
+  
+}
+.contact .row{
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+  align-items: center;
+}
+
+.contact .row .image{
+  flex:1 1 35rem;
+}
+
+.contact .row .image img{
+  width:100%;
+}
+
+.contact .row form{
+  flex:1 1 50rem;
+  padding:2rem;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  border-radius: .5rem;
+}
+
+.contact .row form .inputBox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact .row form .inputBox input, .contact .row form textarea{
+  width:49%;
+  margin:1rem 0;
+  padding:1rem;
+  font-size: 1.7rem;
+  color:#333;
+  background:#f7f7f7;
+  text-transform: none;
+}
+
+.contact .row form textarea{
+  height: 15rem;
+  resize: none;
+  width:100%;
+}
+.cont{
+  display: flex;
+        align-items: center;
+        background-color: lightcyan;
+        margin-left: 0%;
+
+  
+}
+.change{
+  text-align:center;
+  padding:2.5rem 0;
+  color: white;
+}
+
+.change span{
+  font-size: 2.5rem;
+  border-radius:.5rem ;
+  background: gray;
+}
+.heading{
+  text-align:center;
+  padding:2.5rem 0;
+  color: #054964;
+}
+
+.heading span{
+  font-size: 2.5rem;
+  background: rgba(53, 5, 164, 0.2);
+  border-radius: .5rem;
+  padding: .2rem 1rem;
+}
+.facility{
+  text-align:center;
+  padding:2.5rem 0;
+  color: #444708;
+}
+
+.facility span{
+  font-size: 2.5rem;
+  background:rgb(224, 224, 173);
+  border-radius: .5rem;
+  padding: .2rem 1rem;
+}
+
+.side{
+  align-self: flex-end;
+  display: flex;
+}
+.row {
+  display: flex;
+  background-color: bisque;
+  text-decoration: none;
+}
+
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+.fac{
+  background-color: darkgoldenrod;
+  color: crimson;
+}
+
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-color: red;}
+#News {background-color: green;}
+#Contact {background-color: blue;}
+#About {background-color: orange;}
+
+

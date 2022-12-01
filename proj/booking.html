@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="book.css"/>
+    <title>Booking</title>
+    <style>
+        .ground{
+            background-image:url(./wp.jpg) ;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="ground">
+    <div id="navbar">
+
+	
+        <div id="section">
+            
+    
+            
+       <div id="img">
+        
+    </div>
+    <div id="left">
+        <ul class="nav navbar-nav navbarfa-pull-right">
+            <h1><span style="color: orange;">W</span>ELCOME <span style="color: orange;">T</span>O <span style="color: orange;">M</span>ANDARIN <span style="color: orange;">O</span>RIENTAL <span style="color: orange;">H</span>OTEL <span style="color: orange;">G</span>ROUP</h1> Customers satisfaction is a philosophy!!!
+                <a href="#home" class="w3-button w3-bar-item">HOME </a>
+                
+                <a href="booking.html" >BOOKING</a>
+                <a href="contact.html" class="w3-button w3-bar-item">CONTACT</a>
+    
+             
+            </ul>
+        </div>
+        </div>
+        </div><br><br><br><br><br><br>
+        <div id="book">
+            
+            <form action="book.php" method="post">
+               
+                <h1 >BOOKING</h1>
+                <label for="name" >name:</label>
+                       <input id="name" name="name" placeholder="Full Name" required="" tabindex="1" type="text"><br><br>
+               
+               <label for="email" >email</label>
+                       <input id="email" name="email" placeholder="Email" required="" type="email"><br><br>
+               
+               <label for="mobile" >mobile:</label> 
+                           <input id="phone" name="mobile" placeholder="Number" required="" type="tel"> <br><br>
+               
+               <div style="position:relative;height:80px;">
+               
+              <label >check_in</label>
+                          <input type="date"  name="check_in" min="2000-01-02"><br>
+                          <label>check_out</label>
+                          <input type="date"  name="check_out" min="2000-01-02"><br>
+                          
+                          
+               </div>
+               Room Type:
+               
+                   <select name="room">
+               
+                       <option value="A/C">A/C</option>
+                       <option value="Non-A/C">Non-A/C</option>
+                   </select><br><br>
+                 Seater:
+                 <select name="seater">
+                 <option value="single">single</option>
+                 <option value="double">double</option>
+                 <option value="family">family</option>
+             </select>
+        
+                   <br>
+               <br/><br/><br/>
+        <a href="payment.html"><input type="submit" class="btn1" value="SUBMIT"></a>
+        <input type="submit" class="btn1" value="RESET">
+        </form>
+            </div>
+   
+    
+    
+</div>
+
+            
+
+            
+                
+                 
+            
+			
+            
+
+    
+   
+</body>
+</html>

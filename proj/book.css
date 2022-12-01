@@ -1,0 +1,43 @@
+#navbar {
+ 
+    position: fixed; 
+    top: 0px; 
+    width: 100%; 
+    
+    
+  }
+  
+  #section{
+    display:flex;
+      margin-right:0px;
+      font-style: oblique;
+      border:1px solid;
+    
+      background-color: black;
+      margin-bottom: 0%;
+  }
+  #left{
+        
+    margin-right: 20px;
+    margin-bottom: 0%;
+    color: white;
+    
+    
+  }
+  #book{
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 950px;
+    background-image:url(./blur.jpg) ;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+    
+  }
+  .row {
+    display: flex;
+  }
+  .fac{
+    background-color: darkgoldenrod;
+    color: crimson;
+  }
